@@ -10,10 +10,19 @@
             font-family: Georgia, serif;
             background-color: #f7f4eb;
             color: #3d3d3d;
-            max-width: 600px;
             margin: 0;
             padding: 20px;
-            line-height: 1.0;
+            line-height: .8;
+            max-width: 480px;
+        }
+
+        .banner {
+            width: 100%;
+            height: auto;
+            max-height: 40vh;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 20px;
         }
 
         h1 {
@@ -23,8 +32,9 @@
         }
 
         p {
-            font-size: 1.1em;
+            font-size: 1.0em;
             color: #424242;
+            margin-bottom: 1em;
         }
 
         a {
@@ -41,7 +51,7 @@
 </head>
 
 <body>
-    <img src="images/banner.png" alt="Banner" class="banner" style="width: 500px; height: auto;">
+    <img src="images/banner.png" alt="Banner" class="banner">
     <p>My name is Lukas Berglund.</p>
     <p> You can reach me at hello@{my first and last name}.com</a></p>
 </body>
